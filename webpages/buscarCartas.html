@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buscador de cartas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <meta charset="UTF-8"/>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2" id="leftSide">
+        <div class="twBox" id="twitterNews">
+          <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/YGO_DL_Official">Tweets by TwitterDev</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="col-8 webContainer" style="background-color: white" id="mainZone">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barraNavegacion">
+            <a class="navbar-brand" href="../index.html">Yu-Gi-Oh!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Introducción</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="monstruo.html">Cartas de monstruo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="magia.html" tabindex="-1">Cartas de magia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="trampa.html" tabindex="0">Cartas de trampa</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" href="buscarCartas.html" tabindex="0">Buscar cartas</a>
+                  </li>
+              </ul>
+                <a class="btn btn-success my-2 my-sm-0 normalMonster" style="border-color: rgb(241, 196, 15);" href="loginpage.html">Iniciar sesión</a>
+            </div>
+        </nav>
+        <br>
+
+        <div class="row">
+          <div class="col-12 justify-content-center">
+            <h2 style="text-align: center;">Buscador de cartas de Yu-Gi-Oh!</h2>
+          </div>
+          <div class="col-12" style="margin-bottom: 4px;">
+            <input class="h-100 w-100" type="text" name="nombreCarta" id="entradaNombre">
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-success h-100 w-100" id="buscarBtn">Buscar</button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 2%;">
+          <div class="col-6" id="cartaImagen">
+            
+          </div>
+          <div class="col-6" id="cartaDatos">
+            <h3>Nombre: n/a</h3>
+            <hr>
+            <h3>Nivel: n/a</h3>
+            <hr>
+            <h3>Ataque: n/a Defensa: n/a</h3>
+            <hr>
+            <h3>Descripción</h3>
+            <p>n/a</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+      </div>
+      <div class="col-2" id="rightSide"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="../js/buscador.js"></script>
+</body>
+</html>

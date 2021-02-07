@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cartas de magia</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2" id="leftSide">
+				<div class="twBox" id="twitterNews">
+					<a class="twitter-timeline twBox" data-width="300" data-height="400" href="https://twitter.com/YGO_DL_Official">Tweets by TwitterDev</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+			<div class="col-8 webContainer" style="background-color: white" id="mainZone">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" id="barraNavegacion">
+  					<a class="navbar-brand" href="../index.html">Yu-Gi-Oh!</a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+  					</button>
+
+  					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    					<ul class="navbar-nav mr-auto">
+      						<li class="nav-item">
+        						<a class="nav-link" href="../index.html">Introducción</a>
+      						</li>
+      						<li class="nav-item">
+	        					<a class="nav-link" href="monstruo.html">Cartas de monstruo</a>
+    	  					</li>
+      						<li class="nav-item active">
+        						<a class="nav-link" href="magia.html" tabindex="-1">Cartas de magia</a>
+      						</li>
+      						<li class="nav-item">
+        						<a class="nav-link" href="trampa.html" tabindex="0">Cartas de trampa</a>
+      						</li>
+                  <li>
+                    <a class="nav-link" href="buscarCartas.html" tabindex="0">Buscar cartas</a>
+                  </li>
+    					</ul>
+      					<a class="btn btn-success my-2 my-sm-0 magic-card" style="border-color: rgb(46, 128, 66);" href="loginpage.html" >Iniciar sesión</a>
+  					</div>
+				</nav>
+				<div>
+					<br>
+					<h4>Cartas de magia</h4>
+					<p>
+						Las cartas de magia pueden aplicar sus efectos dependiendo del tipo de carta que sea. Hay diferentes tipos de carta de magia, en específico hay 4 tipos:
+					</p>
+					<div class="d-flex w-100">
+      					<div class="row justify-content-around w-100" style="margin-left: 0px;margin-right: -0px;">
+	        				<div class="col-sm-3" style="margin-bottom: 10px;margin-top: 10px;">
+    	      					<div class="card bg-success rounded cartasPresentacion">
+        	      					<img src="../imagenes/cartaMagia.png" class="card-img-top" alt="formato no aceptado">
+            	  					<div class="card-body text-center magic-card">
+                						<h4 class="card-title justify-content-center">Carta de magia normal</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-3" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-success rounded cartasPresentacion">
+              						<img src="../imagenes/cartaMagiaContinua.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center magic-card">
+                						<h4 class="card-title justify-content-center">Carta de magia continua</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-3" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-success rounded cartasPresentacion">
+              						<img src="../imagenes/cartaMagiaJR.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center magic-card">
+                						<h4 class="card-title justify-content-center">Carta de magia de juego rápido</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-3" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-success rounded cartasPresentacion">
+              						<img src="../imagenes/cartaMagiaCampo.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center magic-card">
+                						<h4 class="card-title justify-content-center">Carta de magia de campo</h4>
+              						</div>
+          						</div>
+        					</div>
+      					</div>
+    				</div>
+    				<hr>
+    				<div>
+    					<h5>Cartas de magia normales</h5>
+    					<p>Las cartas de magia normales una vez utilizadas se envian al cementerio inmediatamente.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Cartas de magia continua o de equipo</h5>
+    					<p>Las cartas de magia continuas se pueden utilizar durante tu main phase. Este tipo de carta cuando se activa se queda en el campo en tu zona de cartas de magia/trampa.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Cartas de magia de juego rápido</h5>
+    					<p>Las cartas de juego rápido se puede se pueden utilizar en cualquier momento (casi como una carta de trampa). Así como las cartas normales, una vez activadas estas se envían inmediatamente al cementerio.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Cartas de magia de campo</h5>
+    					<p>Las cartas de magia de campo se colocan en tu zona de cartas de campo, estas una vez activadas se quedan en el campo. Su comportamiento es similar a las cartas de magia continuas. Estas cartas normalmente se utilizan para dar una ventaja a nuestros monstruos, como aumentar el ataque.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Conclusiones</h5>
+    					<ul>
+    						<li>
+    						En general el efecto de las cartas se aplica dependiendo de la descripción de la carta. Por ejemplo, hay cartas que solo pueden aplicar su efecto cuando comienza la battle phase, otras que se aplican en la standby phase y la mayoria se aplican en la main phase. Para saber cuando se aplica el efecto de cada carta hay que leer la descripción.
+    						</li>
+                <br>
+    						<li>
+    						Hay que tener en cuenta que cuando se coloca una carta de juego rápido, estas no se activarán en el turno que la colocaste, así como las cartas de trampa.
+    						</li>
+                <br>
+    						<li>
+    						Las cartas que activan sus efectos una vez son activadas (es decir, su efecto se aplica inmediatamente) no se verán afectadas por las cartas del adversario que destruyen cartas de magia/trampa. El efecto se aplicará igualmente. Por ejemplo si se activa una carta de fusión y el adversario activa una carta de trampa que destruye la carta de magia, el efecto de fusión se aplicará igualmente. Si se quieren negar los efectos de una carta magica se ha de utilizar una carta de contraefecto.
+    						</li>
+                <br>
+    						<li>
+    						Las cartas magicas de equipo són similares a las de efecto continuo. La diferéncia es que estas dotan a tu monstruo de una ventaja, que puede ser un aumento de ataque, un efecto que se aplica dadas unas ciertas condiciones, la carta no puede ser destruida una vez, etc. Para saber qué ventaja aporta la carta de equipo hay que leer la descripción.
+    						</li>
+    					</ul>
+    				</div>
+				</div>
+			</div>
+			<div class="col-2" id="rightSide"></div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/actions.js"></script>
+</body>
+</html>

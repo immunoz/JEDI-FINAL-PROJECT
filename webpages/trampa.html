@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cartas de trampa</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2" id="leftSide">
+				<div class="twBox" id="twitterNews">
+					<a class="twitter-timeline twBox" data-width="300" data-height="400" href="https://twitter.com/YGO_DL_Official">Tweets by TwitterDev</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+			<div class="col-8 webContainer" style="background-color: white" id="mainZone">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" id="barraNavegacion">
+  					<a class="navbar-brand" href="../index.html">Yu-Gi-Oh!</a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+  					</button>
+
+  					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    					<ul class="navbar-nav mr-auto">
+      						<li class="nav-item">
+        						<a class="nav-link" href="../index.html">Introducción</a>
+      						</li>
+      						<li class="nav-item">
+	        					<a class="nav-link" href="monstruo.html">Cartas de monstruo</a>
+    	  					</li>
+      						<li class="nav-item">
+        						<a class="nav-link" href="magia.html" tabindex="-1">Cartas de magia</a>
+      						</li>
+      						<li class="nav-item active">
+        						<a class="nav-link" href="trampa.html" tabindex="0">Cartas de trampa</a>
+      						</li>
+                  <li>
+                    <a class="nav-link" href="buscarCartas.html" tabindex="0">Buscar cartas</a>
+                  </li>
+    					</ul>
+      					<a class="btn btn-success my-2 my-sm-0 trap-card" style="border-color: rgb(127, 54, 161);" href="loginpage.html">Iniciar sesión</a>
+  					</div>
+				</nav>
+				<div>
+					<br>
+					<h4>Cartas de trampa</h4>
+					<p>
+						A diferencia de las cartas de magia, las cartas de trampa pueden activarse en el turno de cualquier jugador y en cualquier momento. Hay tres tipos de carta de trampa:
+					</p>
+					<div class="d-flex w-100">
+      					<div class="row justify-content-around w-100" style="margin-left: 0px;margin-right: -0px;">
+	        				<div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+    	      					<div class="card bg-danger rounded cartasPresentacion">
+        	      					<img src="../imagenes/cartaTrampa.png" class="card-img-top" alt="formato no aceptado">
+            	  					<div class="card-body text-center trap-card">
+                						<h4 class="card-title justify-content-center">Trampa normal</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-danger rounded cartasPresentacion">
+              						<img src="../imagenes/cartatrampaContinua.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center trap-card">
+                						<h4 class="card-title justify-content-center">Trampa continua</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-danger rounded cartasPresentacion">
+              						<img src="../imagenes/cartaTrampaContraefecto.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center trap-card">
+                						<h4 class="card-title justify-content-center">Trampa de contraefecto</h4>
+              						</div>
+          						</div>
+        					</div>
+      					</div>
+    				</div>
+    				<hr>
+    				<div>
+    					<h5>Cartas de trampa normal</h5>
+    					<p>Las cartas de trampa normales una vez utilizadas se envian al cementerio inmediatamente.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Cartas de trampa continua</h5>
+    					<p>Las cartas de trampa continuas se pueden activar en el turno de cualquier jugador. Los efectos se aplican según la descripción de la carta. Este tipo de carta cuando se activa se queda en el campo en tu zona de cartas de magia/trampa hasta que sea destruida por tí o por tu adversario.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Cartas de trampa de contra efecto</h5>
+    					<p>Las cartas de trampa de contraefecto se utilizan para negar la activación de una carta de magia o trampa. Es decir, si el adversario activa una carta de trampa o magia, puedes negar la activación de esta con una carta de contraefecto. Una vez utilizada, ésta se va al cementerio.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Conclusiones</h5>
+    					<ul>
+    						<li>
+    						En general el efecto de las cartas se aplica dependiendo de la descripción de la carta. Por ejemplo, hay cartas que solo pueden aplicar su efecto en la battle phase o, cuando se cumplen unas determinadas condiciones (por ejemplo tener un monstruo en el campo, tener uno numero determinado de cartas en tu mano, no tener cartas magicas en el cementerio, etc) Para saber cuando como aplicar el efecto de cada carta hay que leer la descripción.
+    						</li>
+                <br>
+    						<li>
+    						Hay que tener en cuenta que cuando se coloca una carta de trampa, se podra utilizar a partir de la end-phase del turno en el que la colocaste en el campo.	
+    						</li>
+                <br>
+    						<li>
+    						Al igual que las cartas mágicas, también se puede negar la activación de una carta de trampa, lo único que necesitas es una otra carta trampa de contraefecto (por ejemplo, el disruptor de trampa).
+    						</li>
+                <br>
+    						<li>
+    						Las cartas de trampa también pueden colocarse en la zona de cartas de campo, pero este tipo de cartas son poco comunes. La mayoría de cartas que se colocan en la zona de cartas de campo son de magia.
+    						</li>
+    					</ul>
+    				</div>
+				</div>
+			</div>
+			<div class="col-2" id="rightSide"></div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/actions.js"></script>
+</body>
+</html>

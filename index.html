@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yu-Gi-Oh! Guía para principiantes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="UTF-8"/>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2" id="leftSide">
+        <div class="twBox" id="twitterNews">
+          <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/YGO_DL_Official">Tweets by TwitterDev</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="col-8 webContainer" style="background-color: white" id="mainZone">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barraNavegacion">
+            <a class="navbar-brand" href="">Yu-Gi-Oh!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="">Introducción</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="webpages/monstruo.html">Cartas de monstruo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="webpages/magia.html" tabindex="-1">Cartas de magia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="webpages/trampa.html" tabindex="0">Cartas de trampa</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="webpages/buscarCartas.html" tabindex="0">Buscar cartas</a>
+                  </li>
+              </ul>
+                <a class="btn btn-success my-2 my-sm-0 index-button" href="webpages/loginpage.html">Iniciar sesión</a>
+            </div>
+        </nav>
+        <br>
+    <div>
+      <h4>Bienvenido a Yu-Gi-Oh!</h4>
+      <p>A pesar de que Yu-Gi-Oh! es un manga creado por <a href="https://es.wikipedia.org/wiki/Kazuki_Takahashi"> Kazuki Takahashi</a>, en esta web hablaremos del juego de cartas que surgió de esta larga e increíble serie. En específico hablaremos del juego para la plataforma de Android e IOS: Yu-Gi-Oh! Duel links</p>
+
+      <br>
+      <p>Antes de comenzar debes saber que existen diferentes tipos de cartas. Entre ellas están:</p>
+    </div>
+
+    <div class="d-flex w-100">
+      <div class="row justify-content-around w-100" style="margin-left: 0px;margin-right: -0px;">
+        <div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          <div class="card bg-danger rounded cartasPresentacion">
+              <img src="imagenes/cartaTrampa.png" class="card-img-top" alt="formato no aceptado">
+              <div class="card-body text-center trap-card">
+                <h4 class="card-title justify-content-center">Carta de trampa</h4>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          <div class="card bg-success rounded cartasPresentacion">
+              <img src="imagenes/cartaMagia.png" class="card-img-top" alt="Formato no aceptado">
+              <div class="card-body text-center magic-card">
+                <h4 class="card-title justify-content-center">Carta de magia</h4>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          <div class="card bg-warning rounded cartasPresentacion">
+              <img src="imagenes/cartaMonstruo.png" class="card-img-top" alt="Formato no aceptado">
+              <div class="card-body text-center">
+                <h4 class="card-title justify-content-center">Carta de monstruo</h4>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <p>Si quieres saber mas sobre los diferentes tipos de cartas que hay, puedes acceder a la pestaña correspondiente en la <a href="#barraNavegacion">barra de navegación.</a></p>
+    <hr>    
+    <div>
+      <p>Además tienes que saber cómo es el campo de batalla con el objetivo de ver cuantas cartas de cada tipo puedes poner en él.</p>
+      <div class="d-flex justify-content-center">
+        <img src="imagenes/tableroJuego.png" class="imagenesGeneral">
+      </div>
+      <br>
+      <p>El tablero consta de zonas bien diferenciadas. Podemos observar:</p>
+      <ul>
+        <li>La zona de cartas de magia/trampa</li>
+        <p>Aquí podrás colocar tus cartas de magia y trampa, tanto boca arriba como boca abajo. Solo dispones de 4 ranuras. Hay dos zonas, una con 3 ranuras y otra con 1 ranura. La zona con una ranura es para las cartas de campo y la zona de 3 ranuras es para las cartas de trampa/magia que no sean de campo.</p>
+        
+        <li>La zona de cartas de Monstruo</li>
+        <p>Aquí se puden colocar o invocar tus monstruos. Solo dispones de una zona con 3 ranuras.</p>
+        
+        <li>La zona de cartas del deck extra</li>
+        <p>Aquí estaran colocadas en pila tus cartas de fusión o sincronía. Cuando un monstruo de fusión o sincroonía es invocado este saldrá de la zona del deck extra (Cuando quieras invocar a uno de estos monstruos necesitas tener los materiales necesarios).</p>
+        
+        <li>La zona de cartas de tu deck</li>
+        <p>Cada vez que tengas que robar una carta la cogeras de esta zona.</p>
+        
+        <li>La zona de cartas en el cementerio</li>
+        <p>Cuando un monstruo es destruido o una carta de trampa/magia es usada irán a esta zona del campo.</p>
+      </ul>
+    </div>
+    <br>
+      </div>
+      <div class="col-2" id="rightSide"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/actions.js"></script>
+</body>
+</html>

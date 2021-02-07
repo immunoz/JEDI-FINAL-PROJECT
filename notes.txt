@@ -1,0 +1,5 @@
+- Puede que la api no cargue correctamente los resultados debido a una actualización de la API
+- El Item de twitter a la izquierda puede que no cargue debido a que las primeras llamadas tiene que "despertarse" el servidor
+- Cambios en la forma en la que se hagan las llamadas en axios
+
+JEDI final project of the course HTML, CSS y JavaScript. This webpage is based on the tematic of Yu-Gi-Oh! game for movile devices. 

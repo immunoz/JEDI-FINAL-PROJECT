@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cartas de monstruo</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <meta charset="UTF-8"/>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2" id="leftSide">
+				<div class="twBox" id="twitterNews">
+					<a class="twitter-timeline twBox" data-width="300" data-height="400" href="https://twitter.com/YGO_DL_Official">Tweets by TwitterDev</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			</div>
+			<div class="col-8 webContainer" style="background-color: white" id="mainZone">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" id="barraNavegacion">
+  					<a class="navbar-brand" href="../index.html">Yu-Gi-Oh!</a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+  					</button>
+
+  					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    					<ul class="navbar-nav mr-auto">
+      						<li class="nav-item">
+        						<a class="nav-link" href="../index.html">Introducción</a>
+      						</li>
+      						<li class="nav-item active">
+	        					<a class="nav-link" href="monstruo.html">Cartas de monstruo</a>
+    	  					</li>
+      						<li class="nav-item">
+        						<a class="nav-link" href="magia.html" tabindex="-1">Cartas de magia</a>
+      						</li>
+      						<li class="nav-item">
+        						<a class="nav-link" href="trampa.html" tabindex="0">Cartas de trampa</a>
+      						</li>
+                  <li>
+                    <a class="nav-link" href="buscarCartas.html" tabindex="0">Buscar cartas</a>
+                  </li>
+    					</ul>
+      					<a class="btn btn-success my-2 my-sm-0 normalMonster" style="border-color: rgb(212, 172, 13);" href="loginpage.html">Iniciar sesión</a>
+  					</div>
+				</nav>
+				<div>
+					<br>
+					<h4>Cartas de Monstruo</h4>
+					<p>
+						Los monstruos són esenciales en la partida, sin ellos es casi imposible ganar una partida. Los monstruos son los encargados de atacar a los life points de tu adversario y de destruir a los monstruos enemigos. Aunque aquí solamente hablaremos de 3 tipos de monstruos, hay que saber que existen hasta 6 tipos. Los tres tipos de monstruos que todo principiante debe conocer són:
+					</p>
+					<div class="d-flex w-100">
+      					<div class="row justify-content-around w-100" style="margin-left: 0px;margin-right: -0px;">
+        					<div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-success rounded cartasPresentacion">
+              						<img src="../imagenes/monstruoFusión.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center" style="background-color: rgb(142, 68, 173);">
+                						<h4 class="card-title justify-content-center">Fusión</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-success rounded cartasPresentacion">
+              						<img src="../imagenes/monstruoNormal.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center normalMonster">
+                						<h4 class="card-title justify-content-center">Normal</h4>
+              						</div>
+          						</div>
+        					</div>
+        					<div class="col-sm-4" style="margin-bottom: 10px;margin-top: 10px;">
+          						<div class="card bg-success rounded cartasPresentacion">
+              						<img src="../imagenes/monstruoEfecto.png" class="card-img-top" alt="Formato no aceptado">
+              						<div class="card-body text-center" style="background-color: rgb(202, 111, 30);">
+                						<h4 class="card-title justify-content-center">Efecto</h4>
+              						</div>
+          						</div>
+        					</div>
+      					</div>
+    				</div>
+    				<hr>
+    				<div>
+    					<h5>Monstruos de fusión</h5>
+    					<p>Los monstruos de fusión se invocan desde el deck extra, es decir, no necesitas tener la carta en tu mano para poder invocarlo. Para poder invocar un monstruo de fusión necesitas una carta mágica de fusión y los "ingredientes" necesarios para la invocación. Si quieres saber que monstruos necesitas solo tienes que leer la descripción de la carta. En la carta de ejemplo podemos ver que para invocar al legendario dragón definitivo de ojos azules necesitamos tres cartas en la mano del dragón blanco de ojos azules. Una vez activada la carta de fusión los "ingredientes" que se utilizaron para invocar al monstruo van al cementerio.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Monstruos normales</h5>
+    					<p>Los monstruos normales no tienen ninguna virtud en especial. Son monstruos que al invocarse no tienen ningun efecto en el campo.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>monstruos de Efecto</h5>
+    					<p>Los monstruos de efecto son elementales para cualquier deck. Los monstruos de efecto funcionan de la misma manera que las cartas de magia/trampa, provocan algún efecto en el campo. La diferencia con las cartas de magia/trampa es que éstas necesitan estar en el campo invocada como monstruo para poder aplicar su efecto. Por ejemplo, Kaibaman es una carta que cuando está en el campo, puede ser sacrificada (enviada al cementerio) para invocar al dragón blanco de ojos azules.</p>
+    					<hr>
+    				</div>
+    				<div>
+    					<h5>Conclusiones</h5>
+    					<ul>
+    						<li>
+    						Los monstruos de fusión también pueden tener efectos en el campo.
+    						</li>
+                <br>
+    						<li>
+    						Los tipos de monstruo que hay son: normales, de efecto, de fusión, de ritual y de sincronía.
+    						</li>
+                <br>
+    						<li>
+    						Los efectos de los monstruos también pueden ser negados, tanto por cartas de monstruos como por cartas de efecto.
+    						</li>
+                <br>
+                <li>
+                Los monstruos tienen niveles. El nivel de cada monstruo es igual al numero de bolitas que hay encima de la ilustración de cada carta. Por ejemplo, el dragón blanco de ojos azules tiene 8 bolitas encima de su ilustración, por lo tanto tiene nivel 8, así como kaibaman tiene nivel 3.
+                </li>
+                <br>
+    						<li>
+    						Los monstruos de nivel 5 o superior pueden ser invocados de forma especial sin sacrificar ningún monstruo en el campo.
+    						</li>
+    					</ul>
+    				</div>
+				</div>
+			</div>
+			<div class="col-2" id="rightSide"></div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/actions.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+	background-color: rgb(239, 235, 220);
+	background-image: url(../imagenes/wallpaper2.jpg);
+	background-size: cover;
+}
+
+footer {
+	background-color: white;
+	position: fixed;
+	display: block;
+	border-top: 2px solid black;
+	width: 100%;
+	bottom: 0px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align: center;
+}
+
+.loginDiv {
+	background-color: rgb( 224, 198, 94 );
+	width: 25%;
+	padding-top: 0.1%;
+	padding-bottom: 0.1%;
+	position: fixed;
+	top: 50vh;
+	left:50vw;
+	transform: translate(-50%,-100%); /*moverlo al centro*/
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid grey;
+}
+
+.loginDiv h1 {
+	text-align: center;
+}
+
+.loginDiv input[type = "text"], .loginDiv input[type = "password"], .loginDiv input[type = "email"] {
+	width: 60%;
+	background-color: rgb(239, 235, 220);
+	text-align: center;
+	margin: 5px;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.loginDiv input[type = "submit"] {
+	border: 0;
+	width: 50%;
+	background-color: white;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	transition: 0.25s;
+}
+
+.loginDiv input[type = "submit"]:hover {
+	background-color: rgb( 94, 224, 102 );
+	transition: 0.25s;
+}
